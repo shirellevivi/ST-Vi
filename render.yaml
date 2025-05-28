@@ -1,0 +1,10 @@
+services:
+  - type: web
+    runtime: node
+    name: sillytavern
+    repo: https://github.com/SillyTavern/SillyTavern
+    plan: starter
+    branch: Staging
+    startCommand: bash start.sh
+    autoDeploy: true # 
+    
